@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="@color/bg_blue"
+    android:paddingLeft="16dp"
+    android:paddingBottom="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <TextView
+        android:id="@+id/phoneTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:drawableRight="@drawable/edit"
+        android:drawablePadding="10dp"
+        android:text="1234567890"/>
+
+    <TextView
+        android:id="@+id/usernameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/phoneTv"
+        android:text="Yang"/>
+
+    <com.broadmobi.myownapp.utils.imageview.CustomRoundImageView
+        android:id="@+id/head_img_Iv"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/default_avatar"
+        android:layout_above="@id/usernameTv"
+        android:layout_marginBottom="15dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group  android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checkable="true"
+            android:icon="@drawable/home"
+            android:title="@string/tab_menu_home"/>
+        <item
+            android:id="@+id/nav_function_list"
+            android:checkable="true"
+            android:icon="@drawable/list"
+            android:title="@string/tab_menu_message"/>
+        <item
+            android:id="@+id/nav_publish"
+            android:checkable="true"
+            android:icon="@drawable/collect"
+            android:title="@string/tab_menu_my"
+            />
+        <item
+            android:id="@+id/nav_others"
+            android:checkable="true"
+            android:icon="@drawable/others"
+            android:title="@string/tab_menu_setting"/>
+    </group>
+
+    <item android:title="系统" >
+        <menu>
+            <item
+                android:id="@+id/set"
+                android:checkable="true"
+                android:icon="@drawable/settings"
+                android:title="设置"/>
+            <item
+                android:id="@+id/about"
+                android:checkable="true"
+                android:icon="@drawable/about"
+                android:title="关于"/>
+        </menu>
+    </item>
+
+</menu>

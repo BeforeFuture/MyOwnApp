@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/select_photo_header" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/gray"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <GridView
+            android:id="@+id/gird_photo_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="3dp"
+            android:numColumns="3"
+            android:verticalSpacing="3dp"></GridView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/previewTv"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:text="预览"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="7dp"
+            android:paddingRight="15dp"
+            android:paddingTop="7dp"
+            android:clickable="true"
+            android:background="@drawable/preview_pressed"
+            android:layout_alignTop="@+id/originalPicTv"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/originalPicTv"
+            android:layout_width="wrap_content"
+            android:maxWidth="150dp"
+            android:layout_height="35dp"
+            android:layout_toRightOf="@+id/previewTv"
+            android:layout_centerVertical="true"
+            android:text="原图"
+            android:textSize="15sp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="15dp"
+            android:paddingStart="12dp"
+            android:paddingBottom="7dp"
+            android:paddingRight="12dp"
+            android:paddingTop="7dp"
+            android:drawableLeft="@drawable/un_original_picture"
+            android:drawablePadding="8dp"
+            android:clickable="true"
+            android:background="@drawable/preview_pressed"
+            />
+
+
+        <Button
+            android:id="@+id/selected_photo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/photo_select_btn_selector"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="下一步"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

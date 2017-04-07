@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Dialog"
+        android:textSize="21sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/checkDateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/bg_blue_light"
+            android:text="日期选择" />
+
+        <Button
+            android:id="@+id/checkPlaceBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/checkDateBtn"
+            android:layout_margin="10dp"
+            android:background="@color/bg_blue_light"
+            android:text="城市选择" />
+
+        <Button
+            android:id="@+id/checkListBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/checkPlaceBtn"
+            android:layout_margin="10dp"
+            android:background="@color/bg_blue_light"
+            android:text="列表选择" />
+
+
+        <Button
+            android:id="@+id/townPickerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkDateBtn"
+            android:layout_margin="10dp"
+            android:background="@color/bg_blue_light"
+            android:text="省市县选择" />
+
+
+        <Button
+            android:id="@+id/chooseBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkDateBtn"
+            android:layout_toRightOf="@+id/townPickerBtn"
+            android:layout_margin="10dp"
+            android:background="@color/bg_blue_light"
+            android:text="选择对话框" />
+
+
+
+        <Button
+            android:id="@+id/confirmBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkDateBtn"
+            android:layout_toRightOf="@+id/chooseBtn"
+            android:layout_margin="10dp"
+            android:background="@color/bg_blue_light"
+            android:text="确认对话框" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Activity"
+        android:textSize="21sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cityPickerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/bg_blue_light"
+            android:text="城市选择" />
+
+        <Button
+            android:id="@+id/contactsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/bg_blue_light"
+            android:text="联系人选择" />
+
+        <Button
+            android:id="@+id/webViewBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/bg_blue_light"
+            android:text="WebView" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

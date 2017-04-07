@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_blue"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/titleRl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <include layout="@layout/titlebar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/searchRl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleRl"
+        android:background="@color/white">
+
+
+        <com.broadmobi.myownapp.contactlist.util.ClearEditText
+            android:id="@+id/et_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:background="@drawable/search_bg_normal"
+            android:drawableLeft="@drawable/ic_search"
+            android:hint="输入联系人"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchRl"
+        android:background="@color/white"
+        android:scrollbars="none" />
+
+    <com.broadmobi.myownapp.contactlist.view.QuickIndexBar
+        android:id="@+id/qib"
+        android:layout_width="25dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/searchRl"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/trans" />
+
+    <TextView
+        android:id="@+id/tv_center"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_index"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_no_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="没有此联系人"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

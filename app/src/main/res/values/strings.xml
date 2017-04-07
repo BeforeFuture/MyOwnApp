@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SimpleApp</string>
+
+
+    <string name="tab_menu_home">Fragment</string>
+    <string name="tab_menu_message">列表</string>
+    <string name="tab_menu_my">发布消息</string>
+    <string name="tab_menu_setting">更多</string>
+
+    <!--detail-->
+  <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+
+
+    <!--preview-->
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+
+    <!--仿美团地址选择-->
+    <string name="hot_city">热门城市</string>
+    <string name="located_city">定位城市</string>
+    <string name="hint_search_box">请输入城市名或拼音</string>
+    <string name="nothing_found">没有搜索结果~</string>
+    <string name="locating">正在定位…</string>
+    <string name="located_failed">定位失败</string>
+
+    <!--双向滑动seekbar-->
+    <string name="price_picker_dash" translatable="false">" - "</string>
+
+</resources>
