@@ -83,8 +83,8 @@
             android:name=".publishinfo.SelectPhotoActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
-
-        <activity android:name=".twowayprogressbar.SeekbarActivity"
+        <activity
+            android:name=".twowayprogressbar.SeekbarActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <!-- 高德地图定位 ↓ -->
@@ -95,6 +95,15 @@
             android:value="75906eeb48552f29623a7de49d98fc84" />
         <!-- 高德地图定位  ↑ -->
 
+        <activity android:name=".activity.MoreActivity" />
+        <activity android:name=".customview.CircleViewActivity" />
+        <activity android:name=".customview.OvalViewActivity" />
+        <activity android:name=".customview.PathViewActivity" />
+        <activity android:name=".customview.RectViewActivity" />
+        <activity android:name=".customview.SectorViewActivity" />
+        <activity android:name=".customview.TrigonVIewActivity" />
+        <activity android:name=".customview.TvActivity" />
+        <activity android:name=".customview.ProgressActivity"></activity>
     </application>
 
 </manifest>

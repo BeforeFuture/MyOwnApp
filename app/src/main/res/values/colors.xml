@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#40B0F0</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="bg_blue">#58a0c9</color>
+    <color name="bg_blue">#40B0F0</color>
     <color name="bg_blue_light">#00E3E3</color>
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
@@ -25,7 +25,7 @@
     <color name="alpha_gray">#CC646464</color>
     <color name="gray_dark">#9D9D9D</color>
     <color name="gray_deep_dark">#3C3C3C</color>
-
+    <color name="color">#ff0000</color>
     <color name="orange_text">#F78A00</color>
     <color name="tms_blue">#009CDE</color>
     <color name="tms_dark_blue">#005B85</color>

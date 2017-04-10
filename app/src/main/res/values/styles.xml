@@ -13,7 +13,7 @@
 
     <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- item摁下颜色-->
-        <item name="colorPrimary">#58a0c9</item>
+        <item name="colorPrimary">#40B0F0</item>
         <!-- 手机状态栏颜色-->
         <item name="colorPrimaryDark">#58a0c9</item>
         <item name="colorAccent">#FF4081</item>
